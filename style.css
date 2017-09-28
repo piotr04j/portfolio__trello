@@ -34,7 +34,7 @@ h1 {
 .column-container {
   display: flex;
   flex-direction: row;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
 }
 
 
@@ -50,7 +50,7 @@ h1 {
   order: 1;
   min-width: 250px;
   background-color: #DEA5B3;
-  margin-left: 8px;
+  margin: 20px 10px;
   list-style: none;
   position: relative;
   text-align: center;
